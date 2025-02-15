@@ -1,0 +1,145 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aman Kumar's Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">AK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="jumbotron jumbotron-fluid text-white bg-primary text-center">
+    <div class="container">
+        <h1 class="display-4">Welcome to My Portfolio</h1>
+        <p class="lead">Showcasing my work and skills.</p>
+        <a href="#portfolio" class="btn btn-secondary btn-lg">View Portfolio</a>
+    </div>
+</div>
+
+<!-- About Me Section -->
+<section id="about" class="container my-5">
+    <h2>About Me</h2>
+    <p>
+        Hello, I am Aman Kumar, and I live in Mumbai. I completed my 12th grade
+        in 2023 from Lodha World School, Mumbai. Currently, I'm pursuing two
+        degrees: a Bachelor of Science in Data Science through an online program
+        and a Bachelor of Technology in Computer Science Engineering. In the
+        Data Science program, I'm at the diploma level, and in the B.Tech CSE
+        program, I'm in my first semester.<br/><br/>My passion for technology
+        and data has driven me to explore various facets of these fields.
+        Alongside my academic pursuits, I enjoy coding in Python, which allows
+        me to bring my ideas to life and solve complex problems. In my free
+        time, I indulge in sports, particularly volleyball and cricket, which
+        help me stay active and balanced.<br/><br/>Living in Mumbai, a city
+        that never sleeps, I've learned the importance of resilience,
+        adaptability, and continuous learning. These qualities have shaped my
+        approach to both my studies and my life, as I strive to excel in
+        everything I undertake.
+    </p>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="container my-5">
+    <h2>Skills</h2>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" role="progressbar" style="width: 75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Java</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-alert" role="progressbar" style="width: 90%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Data Analysis</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-warning" role="progressbar" style="width: 40%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container mt-5">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <p>
+        <br>If you'd like to get in touch with me feel free to
+        <a href="mailto:aman@gmail.com" style="text-decoration: none">email me</a>.
+    </p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+    &copy; 2024 Aman Kumar. All rights reserved.
+</footer>
+
+<script src="scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
